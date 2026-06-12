@@ -1,4 +1,4 @@
-package laboratoriofinal;
+package proyect_final;
 
 public class Empleado {
 
@@ -82,4 +82,3 @@ public class Empleado {
 	        return "Empleado{" + "idEmpleado=" + idEmpleado + ", nombre=" + nombre + ", cargo=" + cargo + '}';
 	    }
 	}
-
