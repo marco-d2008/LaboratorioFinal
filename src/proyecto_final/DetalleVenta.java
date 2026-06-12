@@ -1,6 +1,6 @@
 package proyecto_final;
 
-public class DetalleVenta {
+public class DetalleVenta<Producto> {
 	
 	    // Atributos
 	    private int idDetalle;
@@ -19,7 +19,7 @@ public class DetalleVenta {
 	    // Métodos de negocio
 	    public double calcularSubtotal() {
 	        if (this.producto != null) {
-	            return this.cantidad * this.producto.getPrecioVenta();
+	            return this.cantidad * this.cantidad;
 	        }
 	        return 0.0;
 	    }
