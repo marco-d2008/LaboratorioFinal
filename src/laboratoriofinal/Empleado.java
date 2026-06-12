@@ -10,6 +10,7 @@ public class Empleado {
 	    private String fechaIngreso;
 	    private String horarioEntrada;
 	    private String horarioSalida;
+		@SuppressWarnings("unused")
 		private String fecha;
 
 	    // Constructor
